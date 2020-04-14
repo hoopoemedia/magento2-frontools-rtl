@@ -10,6 +10,7 @@ import notify from 'gulp-notify'
 import sourcemaps from 'gulp-sourcemaps'
 import cssnano from 'cssnano'
 import autoprefixer from 'autoprefixer'
+import rtl from 'postcss-rtl'
 import postcss from 'gulp-postcss'
 
 import configLoader from '../helpers/config-loader'
